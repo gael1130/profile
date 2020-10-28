@@ -1,0 +1,343 @@
+html {
+  background: url("images/nick-nice-gPm8h3DS1s4-unsplash.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+  /* background-image: url("images/nick-nice-gPm8h3DS1s4-unsplash.jpg"); */
+  color: azure;
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+
+h1 {
+  color: #CC9C59;
+  font-size: larger;
+}
+
+h2 {
+  color: #CC9C59;
+  font-size: large;
+}
+
+p {
+  font-size: medium;
+}
+
+a {
+  color: #3289A7;
+  font-size: medium;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #CC9C59;
+  font-size: medium;
+  text-decoration: none;
+}
+
+i.fab {
+  font-size: larger;
+}
+
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+
+.card-black {
+  background: url("images/nick-nice-gPm8h3DS1s4-unsplash.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding: 40px;
+  box-shadow: 4px 1px 13px rgb(111 112 114 / 57%);
+  border-radius: 4px;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+.btn-black {
+  background-color: #CC9C59;;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 4px;
+}
+
+.btn-black:hover {
+  background-color: #9137cc;
+  color: white;
+}
+
+.fa-youtube:before {
+color: #fe0000;
+font-size: -webkit-xxx-large;
+}
+
+.fa-github:before {
+  color: #e6c1c1;
+  font-size: -webkit-xxx-large;
+}
+
+.fa-spotify:before {
+color: #1db954;
+font-size: -webkit-xxx-large;
+}
+
+ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+.text-center {
+  text-align: center;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  background-size: cover;
+}
+
+/* ipad approximation */
+@media (max-width: 700px) {
+  h1 {
+    color: #CC9C59;
+    font-size: 70px;
+  }
+
+  h2 {
+    color: #CC9C59;
+    font-size: 45px;
+  }
+
+  p {
+    font-size: 30px;
+  }
+
+  a {
+    color: #3289A7;
+    font-size: 40px;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: #CC9C59;
+    font-size: 40px;
+    text-decoration: none;
+  }
+
+  i.fab {
+    font-size: larger;
+  }
+
+  .container {
+    width: 700px;
+    margin: 40px auto;
+  }
+
+  .card-black {
+    background: url("images/nick-nice-gPm8h3DS1s4-unsplash.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding: 40px;
+    box-shadow: 4px 1px 13px rgb(111 112 114 / 57%);
+    border-radius: 4px;
+    margin: 20px 0px;
+    text-align: center;
+  }
+
+  .btn-black {
+    background-color: #CC9C59;;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+  }
+
+  .btn-black:hover {
+    background-color: #9137cc;
+    color: white;
+  }
+
+  .fa-youtube:before {
+  color: #fe0000;
+  font-size: 70px;
+  }
+
+  .fa-github:before {
+    color: #e6c1c1;
+    font-size: 70px;
+  }
+
+  .fa-spotify:before {
+  color: #1db954;
+  font-size: 70px;
+  }
+
+  ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+  }
+
+  .list-inline {
+    list-style: none;
+    padding-left: 0px;
+  }
+
+  .list-inline > li {
+    display: inline-block;
+    padding: 0px 20px;
+  }
+
+  .img-circle {
+    border-radius: 50%;
+  }
+  .text-center {
+    text-align: center;
+  }
+
+  img {
+    width: 400px;
+    height: 400px;
+    background-size: cover;
+  }
+}
+
+/* iphone 6 approximation */
+@media (max-width: 400px) {
+  h1 {
+    color: #CC9C59;
+    font-size: 95px;
+  }
+
+  h2 {
+    color: #CC9C59;
+    font-size: 80px;
+  }
+
+  p {
+    font-size: 48px;
+  }
+
+  a {
+    color: #3289A7;
+    font-size: 30px;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: #CC9C59;
+    font-size: 30px;
+    text-decoration: none;
+  }
+
+  i.fab {
+    font-size: larger;
+  }
+
+  .container {
+    width: 700px;
+    margin: 40px auto;
+  }
+
+  .card-black {
+    background: url("images/nick-nice-gPm8h3DS1s4-unsplash.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding: 40px;
+    box-shadow: 4px 1px 13px rgb(111 112 114 / 57%);
+    border-radius: 4px;
+    margin: 20px 0px;
+    text-align: center;
+  }
+
+  .btn-black {
+    background-color: #CC9C59;;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+  }
+
+  .btn-black:hover {
+    background-color: #9137cc;
+    color: white;
+  }
+
+  .fa-youtube:before {
+  color: #fe0000;
+  font-size: 90px;
+  }
+
+  .fa-github:before {
+    color: #e6c1c1;
+    font-size: 90px;
+  }
+
+  .fa-spotify:before {
+  color: #1db954;
+  font-size: 90px;
+  }
+
+  ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+  }
+
+  .list-inline {
+    list-style: none;
+    padding-left: 0px;
+  }
+
+  .list-inline > li {
+    display: inline-block;
+    padding: 0px 20px;
+  }
+
+  .img-circle {
+    border-radius: 50%;
+  }
+  .text-center {
+    text-align: center;
+  }
+
+  img {
+    width: 500px;
+    height: 500px;
+    background-size: cover;
+  }
+}
